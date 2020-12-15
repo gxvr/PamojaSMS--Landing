@@ -1,0 +1,443 @@
+/* --------Fonts-------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&amp;family=Public+Sans:wght@400;500;600;700&amp;display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* ------General------- */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+img,
+fieldset,
+a img {
+    border: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    -webkit-appearance: none;
+}
+
+input[type="submit"],
+button {
+    cursor: pointer;
+    background: none;
+}
+
+input[type="submit"]::-moz-focus-inner,
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+textarea {
+    overflow: auto;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input,
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div,
+input,
+textarea,
+select,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+a:focus {
+    outline: none;
+}
+
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+button {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+
+/* --------Structure--------- */
+
+.main-padding {
+    padding: 140px 0px 160px 0px;
+}
+
+.sec-padding {
+    padding: 100px 0px;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+
+/* -------Typography--------- */
+
+.h3,
+h3 {
+    font-size: 1.3125rem !important;
+    margin-bottom: .5rem;
+    font-weight: 400;
+}
+
+
+/* --------Colors----------- */
+
+.main-blue {
+    color: #00006D !important;
+}
+
+.main-green {
+    color: #38c101 !important;
+}
+
+.blue-bg {
+    background-color: #03031d;
+}
+
+.main-bg {
+    background: #edf0fb;
+}
+
+.text-gray {
+    color: #bdc5d1 !important;
+}
+
+
+/* --------Navigation-------- */
+
+.nav-link {
+    font-size: 15px !important;
+}
+
+.nav-link:hover {
+    color: #38c101 !important;
+}
+
+
+/* ----------Hero---------- */
+
+.hero-title {
+    margin-bottom: 32px;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    line-height: 1.3;
+    font-weight: 900;
+    letter-spacing: -.01em;
+}
+
+.hero-lead {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #617594;
+}
+
+.hero-image {
+    top: 60px;
+    left: 120px;
+    z-index: 10;
+}
+
+
+/* ---------Section--------- */
+
+.section-title {
+    margin-bottom: 32px;
+    font-family: 'Merriweather', serif;
+    font-size: 33px;
+    line-height: 1.3;
+    font-weight: 900;
+    letter-spacing: -.01em;
+}
+
+.title-head {
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    border-radius: 100px !important;
+    padding: 10px 20px !important;
+}
+
+.section-span {
+    border-bottom: 3px solid #38c101;
+    color: #38c101;
+    cursor: pointer;
+}
+
+.section--image {
+    width: 100%;
+    min-height: 35rem;
+    background-color: #edf0fb;
+    border-radius: 5px;
+    background-image: url(../img/section-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 850px;
+    background-position: -150px;
+}
+
+.benefit-title {
+    font-size: 15px !important;
+    font-weight: 600;
+    line-height: 1.33333;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    margin-bottom: 12px;
+    color: #00006D !important;
+}
+
+.benefit-icon {
+    background-color: #edf0fb;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.benefit-icon i {
+    font-size: 30px;
+}
+
+.b-contents {
+    z-index: 7;
+}
+
+.t-photo {
+    width: 80px;
+    height: 80px;
+    background-color: #edf0fb;
+    border-radius: 100px;
+}
+
+
+/* -----------Footer--------- */
+
+.footer span,
+a {
+    color: #fff !important;
+    font-size: 14px !important;
+}
+
+
+/* ---------Buttons--------- */
+
+.btn {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.b-border {
+    border-radius: 4px !important;
+}
+
+.btn-red {
+    background-color: #38c101 !important;
+    color: #fff !important;
+}
+
+.btn-red:hover {
+    background-color: #34b103 !important;
+}
+
+.main-btn {
+    padding: 18px 25px;
+    font-size: 18px !important;
+    line-height: 1.3333333;
+    text-decoration: none !important;
+    text-align: center;
+    cursor: pointer;
+    min-width: 250px !important;
+    border-radius: 100px !important;
+}
+
+.btn-small {
+    font-size: 15px !important;
+    padding: inherit 20px !important;
+    padding: 10px 30px !important;
+}
+
+.btn-no-bg {
+    background-color: transparent !important;
+    color: #000 !important;
+    border: 1px solid #cbcdd8 !important;
+    padding: 10px 20px !important;
+}
+
+
+/* -------Misc--------- */
+
+.svg-shape {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    width: 300px;
+}
+
+.hero-image-extra {
+    z-index: 11;
+}
+
+.hero-image-extra .extra-one {
+    width: 300px;
+    top: 380px;
+}
+
+.hero-image-extra .extra-two {
+    width: 220px;
+    top: 80px;
+    left: 300px;
+}
+
+.extra-svg {
+    position: absolute;
+    top: -30px;
+    right: 300px;
+}
+
+.num {
+    font-size: 10em;
+    left: -50px;
+    color: #ececec5d;
+    font-family: 'Merriweather', serif;
+    z-index: -1;
+}
